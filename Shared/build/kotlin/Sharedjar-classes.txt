@@ -1,0 +1,1 @@
+C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Shared\build\classes\kotlin\main\com\example\android\wearable\runtimepermissions\common\Constants.class
