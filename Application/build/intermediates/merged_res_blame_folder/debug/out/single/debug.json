@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxxhdpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxxhdpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxxhdpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxxhdpi/ic_settings_phone.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-mdpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-mdpi/ic_settings_phone.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxhdpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxhdpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-ldpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-ldpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-anydpi-v21_ic_hardware_watch.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-anydpi-v21/ic_hardware_watch.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxxhdpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxxhdpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-ldpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-ldpi/ic_settings_phone.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/layout_activity_wear_permission_request.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_wear_permission_request.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxhdpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxhdpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-hdpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-hdpi/ic_settings_phone.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xhdpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xhdpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-anydpi-v21_ic_very_dissatisfied.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-anydpi-v21/ic_very_dissatisfied.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-hdpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-hdpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-mdpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-mdpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-anydpi-v21_ic_very_satisfied.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-anydpi-v21/ic_very_satisfied.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-mdpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-mdpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-ldpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-ldpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-hdpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-hdpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xhdpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xhdpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxxhdpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxxhdpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-ldpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-ldpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-anydpi-v21_ic_settings_phone.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-anydpi-v21/ic_settings_phone.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xhdpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xhdpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/layout_activity_phone_permission_request.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_phone_permission_request.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxhdpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxhdpi/ic_settings_phone.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-mdpi_ic_very_satisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-mdpi/ic_very_satisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-hdpi_ic_hardware_watch.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-hdpi/ic_hardware_watch.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xxhdpi_ic_very_dissatisfied.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xxhdpi/ic_very_dissatisfied.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-merged_res-31:/drawable-xhdpi_ic_settings_phone.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Application-pngs-26:/drawable-xhdpi/ic_settings_phone.png"
+    }
+]

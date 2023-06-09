@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-mergeDebugResources-30:/layout/activity_phone_permission_request.xml",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_phone_permission_request.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Application-mergeDebugResources-30:/layout/activity_wear_permission_request.xml",
+        "source": "com.example.android.wearable.runtimepermissions.Application-main-33:/layout/activity_wear_permission_request.xml"
+    }
+]

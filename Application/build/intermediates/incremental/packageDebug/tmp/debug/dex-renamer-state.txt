@@ -1,0 +1,4 @@
+#Fri Jun 09 09:23:56 IST 2023
+base.0=C\:\\Users\\A449003\\Downloads\\CT\\wear-os-samples-main\\wear-os-samples-main\\RuntimePermissionsWear\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
