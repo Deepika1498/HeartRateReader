@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-mergeDebugResources-32:/layout/activity_request_permission_on_phone.xml",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/layout/activity_request_permission_on_phone.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-mergeDebugResources-32:/layout/activity_main.xml",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/layout/activity_main.xml"
+    }
+]

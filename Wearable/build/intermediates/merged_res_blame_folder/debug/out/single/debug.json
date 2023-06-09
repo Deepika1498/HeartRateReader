@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/layout_activity_request_permission_on_phone.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/layout/activity_request_permission_on_phone.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/layout_activity_main.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/drawable_ic_very_dissatisfied.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/drawable/ic_very_dissatisfied.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/drawable_ic_very_satisfied.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/drawable/ic_very_satisfied.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/drawable_action_background.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/drawable/action_background.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/drawable_ic_send_to_mobile.xml.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/drawable/ic_send_to_mobile.xml"
+    },
+    {
+        "merged": "com.example.android.wearable.runtimepermissions.Wearable-merged_res-33:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.android.wearable.runtimepermissions.Wearable-main-35:/mipmap-hdpi/ic_launcher.png"
+    }
+]

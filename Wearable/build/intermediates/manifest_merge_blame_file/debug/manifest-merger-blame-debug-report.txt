@@ -1,0 +1,207 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3     Copyright (C) 2021 The Android Open Source Project
+4     Licensed under the Apache License, Version 2.0 (the "License");
+5     you may not use this file except in compliance with the License.
+6     You may obtain a copy of the License at
+7          https://www.apache.org/licenses/LICENSE-2.0
+8     Unless required by applicable law or agreed to in writing, software
+9     distributed under the License is distributed on an "AS IS" BASIS,
+10     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+11     See the License for the specific language governing permissions and
+12     limitations under the License.
+13-->
+14<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+15    package="com.example.android.wearable.runtimepermissions"
+16    android:versionCode="1"
+17    android:versionName="1.0" >
+18
+19    <uses-sdk
+20        android:minSdkVersion="26"
+20-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml
+21        android:targetSdkVersion="30" />
+21-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml
+22
+23    <uses-feature android:name="android.hardware.type.watch" />
+23-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:17:5-64
+23-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:17:19-61
+24
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:19:5-68
+25-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:19:22-65
+26    <uses-permission android:name="android.permission.BODY_SENSORS" />
+26-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:20:5-71
+26-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:20:22-68
+27
+28    <permission
+28-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.android.wearable.runtimepermissions.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.android.wearable.runtimepermissions.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:22:5-60:19
+35        android:allowBackup="true"
+35-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:23:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.10.0] C:\Users\A449003\.gradle\caches\transforms-3\bcecbe13317fce7be42d8664258e565b\transformed\core-1.10.0\AndroidManifest.xml:28:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:24:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:25:9-41
+41        android:theme="@style/Theme.AppCompat.NoActionBar" >
+41-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:26:9-59
+42        <meta-data
+42-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:28:9-30:37
+43            android:name="com.google.android.wearable.standalone"
+43-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:29:13-66
+44            android:value="false" />
+44-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:30:13-34
+45        <meta-data
+45-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:32:9-34:69
+46            android:name="com.google.android.gms.version"
+46-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:33:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:34:13-66
+48
+49        <activity
+49-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:36:9-44:20
+50            android:name="com.example.android.wearable.runtimepermissions.MainWearActivity"
+50-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:37:13-45
+51            android:launchMode="singleInstance" >
+51-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:38:13-48
+52            <intent-filter>
+52-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:39:13-43:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:40:17-69
+53-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:40:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:42:17-77
+55-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:42:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:46:9-49:20
+59            android:name="com.example.android.wearable.runtimepermissions.RequestPermissionOnPhoneActivity"
+59-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:47:13-61
+60            android:label="@string/title_activity_request_permission_on_phone" >
+60-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:48:13-79
+61        </activity>
+62
+63        <service
+63-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:51:9-59:19
+64            android:name="com.example.android.wearable.runtimepermissions.IncomingRequestWearService"
+64-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:52:13-55
+65            android:enabled="true"
+65-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:53:13-35
+66            android:exported="true" >
+66-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:54:13-36
+67            <intent-filter>
+67-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:55:13-58:29
+68                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+68-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:56:17-91
+68-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:56:25-88
+69
+70                <data
+70-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:57:17-86
+71                    android:host="*"
+71-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:57:45-61
+72                    android:pathPrefix="/"
+72-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:57:62-84
+73                    android:scheme="wear" />
+73-->C:\Users\A449003\Downloads\CT\wear-os-samples-main\wear-os-samples-main\RuntimePermissionsWear\Wearable\src\main\AndroidManifest.xml:57:23-44
+74            </intent-filter>
+75        </service>
+76
+77        <uses-library
+77-->[androidx.wear:wear:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\404c6433872485b19febc54f7e1bca2b\transformed\wear-1.2.0\AndroidManifest.xml:25:9-27:40
+78            android:name="com.google.android.wearable"
+78-->[androidx.wear:wear:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\404c6433872485b19febc54f7e1bca2b\transformed\wear-1.2.0\AndroidManifest.xml:26:13-55
+79            android:required="false" />
+79-->[androidx.wear:wear:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\404c6433872485b19febc54f7e1bca2b\transformed\wear-1.2.0\AndroidManifest.xml:27:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\A449003\.gradle\caches\transforms-3\70d691b3ce3e0bcdda5101ab1d060a2f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\A449003\.gradle\caches\transforms-3\70d691b3ce3e0bcdda5101ab1d060a2f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\A449003\.gradle\caches\transforms-3\70d691b3ce3e0bcdda5101ab1d060a2f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\A449003\.gradle\caches\transforms-3\70d691b3ce3e0bcdda5101ab1d060a2f\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.example.android.wearable.runtimepermissions.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\A449003\.gradle\caches\transforms-3\37ab355cdc35d05f55275bf79b5af77c\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\A449003\.gradle\caches\transforms-3\6ea233a95e402fb713827dc7f41ed01b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\A449003\.gradle\caches\transforms-3\6ea233a95e402fb713827dc7f41ed01b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\A449003\.gradle\caches\transforms-3\6ea233a95e402fb713827dc7f41ed01b\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+98                android:value="androidx.startup" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+99        </provider>
+100
+101        <receiver
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+102            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+103            android:directBootAware="false"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+104            android:enabled="true"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+105            android:exported="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+106            android:permission="android.permission.DUMP" >
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+108                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+109            </intent-filter>
+110            <intent-filter>
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+111                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+112            </intent-filter>
+113            <intent-filter>
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+114                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+115            </intent-filter>
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+117                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\A449003\.gradle\caches\transforms-3\0d1b121930c4ab65ccedb8ba4a57737f\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+118            </intent-filter>
+119        </receiver>
+120    </application>
+121
+122</manifest>
