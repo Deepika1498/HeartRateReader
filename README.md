@@ -1,36 +1,54 @@
-Wear OS Samples Repository
-======================
+# Heartrate-Reader-WearOS
 
-This repository contains a set of individual Android Studio projects to help you get started writing Wear OS apps and watch faces.
+This is a Kotlin application for Wearable and Android phone to establish communication with each other using Services and the Wearable MessageApi to communicate between devices. Sensor Manager is used to read the heart rate data from watch.
 
-Read below for a description of each sample.
+# Usage
+1. Download and Install Android Studio from https://developer.android.com/studio 
+2. Clone the project repository
+3. Import the project in Android Studio
+4. Build the project
 
+# Initial Setup - Watch and Android Phone
 
-Samples
-----------
+Follow instructions from https://support.google.com/wearos/answer/6056630?hl=en&co=GENIE.Platform%3DAndroid to set up the watch and phone
 
-* **[AlwaysOnKotlin](AlwaysOnKotlin)** (Compose/Kotlin) - Demonstrates keeping the app visible in ambient mode. Note: While this is valuable for some specific use cases, most use cases won't need this, because when the watch goes into ambient mode (and shows watch face), if the user interacts with the watch again within several minutes, it will bring the app back up when it transitions out of ambient mode. [Guide](https://developer.android.com/training/wearables/apps/always-on)
+# Steps to install Wearable application on real Wear OS Watch device
 
-* **[ComposeStarter](ComposeStarter)** (Compose/Kotlin) - Demonstrates simple Compose for Wear OS app devs can use as a starting point for their own Compose app.
+1. Switch on Developer Options on phone and watch by :
+   Settings -> About -> Click on "Build Number" multiple until a prompt is seen that Developer Options is enabled.
+2. Go to Developer Options on both phone and watch and Turn on ADB Debugging
+3. On Watch : Enable "Debug over Bluetooth" under Developer Options
+4. On Phone : Open Wear OS app. Navigate to Advanced Settings and Enable Debugging over Bluetooth. This will now show 
+              Host : Disconnected
+              Target : Connected
+              Here, the host is the PC that the phone should further be connected to.
+              Target is the Wear OS watch device.
+5. Connect phone to PC using USB cable.
+6. Open Command Prompt and enter the commands: 
+      i) adb forward tcp:4444 localabstract:/adb-hub
+      ii) adb connect 127.0.0.1:4444
+      Note : You must use the IP address 127.0.0.1. Use any available port on your development machine, and use the same port in both commands. In this example,                the port is 4444.
+7. After you enter the connect command, the watch asks you to confirm that you are allowing ADB Debugging.
+8. On the phone, check the status display in the Wear OS companion app for the following:
+   Host: connected
+   Target: connected
+9. Open Android Studio project and select the "Wearable" configuration and from list of Available Devices, select your Watch device.
+10. Click on "Run App" button. The Wearable app called "Runtime Permissions" will be installed in the Watch and will launch in a couple of minutes. 
 
-* **[ComposeAdvanced](ComposeAdvanced)** (Compose/Kotlin) - Demonstrates an advanced Compose for Wear OS app devs can use to learn about the Wear Scaffold, Navigation, ScalingLazyColumn, CurvedText, and more.
+# Steps to install application on real Android phone
 
-* **[DataLayer](DataLayer)** (Compose/Kotlin) - Demonstrates communicating via the data layer between the watch and the phone. [Guide](https://developer.android.com/training/wearables/data-layer)
+1. After installation of Wearable application, keep the phone connected to PC.
+2. In Android Studio, now change the configuration to "Application" and from list of Available Devices, select your Android phone device.
+3. Click on "Run App" button. The Wearable app called "Runtime Permissions" will be installed in the phone and will launch in a couple of minutes.
 
-* **[RuntimePermissionsWear](RuntimePermissionsWear)** (Kotlin) - Demonstrates requesting permissions not only on a Wear OS device and a mobile device, but also across devices, e.g., request permissions on a mobile device from your wear device and the other way around. Note: It does require you having both the Wear and Mobile version of the app installed on both devices. [Guide](https://developer.android.com/training/articles/wear-permissions)
+# Using Application to read heart rate data
 
-* **[WatchFaceKotlin](WatchFaceKotlin)** (Kotlin) - Demos the new AndroidX Watch Face APIs which provide their own storage mechanism for watch face preference values.
+1. Start the mobile or wear app. Each app contains two buttons: one for showing local data and another for showing remote data.
+2. Click either button to view the data. Both local and remote data require permissions to be approved before displaying the data for devices running 23 or above.    You will be asked to approve the access if you do not have the proper permissions.
+3. The happy icon signifies you have access to the data while the sad icon signifies you do or may not have access (and may be asked to approve access).
+4. As and when the buttons are clicked, the data is read from phone/watch and displayed on the device.
 
-* **[WearAccessibilityApp](WearAccessibilityApp)** (Java) - Sample demonstrates how to include accessibility support for your wearable app. [Guide](https://developer.android.com/guide/topics/ui/accessibility)
+# Application flow
 
-* **[WearComplicationDataSourcesTestSuite](WearComplicationDataSourcesTestSuite)** (Kotlin) - If you are writing a watch face with complications, this app gives you a full suite of data sources to test against your implementation of complications to make sure it looks good. [Complication Guide](https://developer.android.com/training/wearables/watch-faces/adding-complications)
-
-* **[WearOAuth](WearOAuth)** (Kotlin) - Demonstrates how developers can authenticate a user on their Wear OS app via the user's mobile/phone device without requiring a mobile app (Wear OS companion app handles the request on the mobile side). The sample uses OAuth. [Guide](https://developer.android.com/training/wearables/apps/auth-wear)
-
-* **[WearSpeakerSample](WearSpeakerSample)** (Compose/Kotlin) - Demonstrates audio recording and playback if the wearable device has a speaker. This is also an advanced Compose sample, handling permissions, use of [effects](https://developer.android.com/jetpack/compose/side-effects), animations and [ConstraintLayout for Compose](https://developer.android.com/jetpack/compose/layouts/constraintlayout). [Guide](https://developer.android.com/training/wearables/wearable-sounds)
-
-* **[WearStandaloneGoogleSignIn](WearStandaloneGoogleSignIn)** (Compose/Kotlin) - Demonstrates using Google sign-in to authenticate user. [Guide](https://developer.android.com/training/wearables/apps/auth-wear)
-
-* **[WearTilesKotlin](WearTilesKotlin)** (Kotlin) - Demonstrates tiles using the new AndroidX library. [Guide](https://developer.android.com/training/articles/wear-tiles)
-
-* **[WearVerifyRemoteApp](WearVerifyRemoteApp)** (Kotlin) - Verify and open your app on another device, and if it isn't installed, open the store listing to allow the user to install it (wear or mobile). [Guide](https://developer.android.com/training/wearables/data-layer/messages#SendMessage)
+##FLOW OF PERMISSIONS FROM WATCH TO PHONE AND VICE VERSA 
+<img src="screenshots/watch2ph.png" height="400" alt="Flow of permissions from watch to phone"/> <img src="screenshots/ph2watchh.png" height="400" alt="Flow of permissions from phone to watch"/> 
