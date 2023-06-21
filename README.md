@@ -2,15 +2,15 @@
 
 This is a Kotlin application for Wearable and Android phone to establish communication with each other using Services and the Wearable MessageApi to communicate between devices. Sensor Manager is used to read the heart rate data from watch.
 
-# Usage
+# Prerequisites
 1. Download and Install Android Studio from https://developer.android.com/studio 
-2. Clone the project repository
-3. Import the project in Android Studio
-4. Build the project
+2. Download and Install WearOS application from Google Playstore on the Android phone.
+3. Follow instructions from https://support.google.com/wearos/answer/6056630?hl=en&co=GENIE.Platform%3DAndroid to set up the watch and phone
 
-# Initial Setup - Watch and Android Phone
-
-Follow instructions from https://support.google.com/wearos/answer/6056630?hl=en&co=GENIE.Platform%3DAndroid to set up the watch and phone
+# Usage of repository
+1. Clone the project repository
+2. Import the project in Android Studio
+3. Build the project
 
 # Steps to install Wearable application on real Wear OS Watch device
 
@@ -44,11 +44,12 @@ Follow instructions from https://support.google.com/wearos/answer/6056630?hl=en&
 # Using Application to read heart rate data
 
 1. Start the mobile or wear app. Each app contains two buttons: one for showing local data and another for showing remote data.
-2. Click either button to view the data. Both local and remote data require permissions to be approved before displaying the data for devices running 23 or above.    You will be asked to approve the access if you do not have the proper permissions.
+2. Click either button to view the data. Both local and remote data require permissions to be approved before displaying the data for devices running 23 or above.  You will be asked to approve the access if you do not have the proper permissions.
 3. The happy icon signifies you have access to the data while the sad icon signifies you do or may not have access (and may be asked to approve access).
 4. As and when the buttons are clicked, the data is read from phone/watch and displayed on the device.
 
 # Application flow
 
-##FLOW OF PERMISSIONS FROM WATCH TO PHONE AND VICE VERSA 
+FLOW OF PERMISSIONS FROM WATCH TO PHONE AND VICE VERSA 
+
 <img src="screenshots/watch2ph.png" height="400" alt="Flow of permissions from watch to phone"/> <img src="screenshots/ph2watchh.png" height="400" alt="Flow of permissions from phone to watch"/> 
